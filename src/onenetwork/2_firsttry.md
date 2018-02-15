@@ -16,7 +16,7 @@
 ## Downsides
 
 * By default, inter/intra platform communications use <span style="color:yellow">Internet</span>
-* Internet is not (always) the most <span style="color:yellow">performant and cheapest</span> communication channel
+* Internet is not (always) the most <span style="color:yellow">performant, secure and cheapest</span> communication channel
 * Manual network provisioning doesn’t work in terms of <span style="color:yellow">speed and reliability</span>
 * Prone to <span style="color:yellow">errors</span> and lack of consistency
 * Some communications still need <span style="color:yellow">network layer security</span> (no TLS)
@@ -31,6 +31,6 @@
 
 * Think as your <span style="color:yellow">users</span> will do
 * Get <span style="color:yellow">feedback</span> as soon as possible, iterate!
-* The solution has to be <span style="color:yellow">flexible</span> enough to be accommodate plugins <!-- multiple underlying solutions -->
+* The solution has to be <span style="color:yellow">flexible</span> enough to accommodate plugins <!-- multiple underlying solutions -->
 *  Evaluate <span style="color:yellow">current</span> needs case-per-case (capability, performance, cost, etc.)
 *  Apply Pareto Rule, <span style="color:yellow">focus</span> on solving most urgent first

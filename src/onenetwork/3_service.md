@@ -12,14 +12,15 @@
 
 * Easy onboarding / <span style="color:yellow">selfserve</span>
 * Users should be <span style="color:yellow">autonomous</span> to handle connections
-* <span style="color:yellow">Abstract</span> all network details from users
+* <span style="color:yellow">Abstract</span> all network details from users, and use the <span style="color:yellow">best</span> option in every case
 * Support <span style="color:yellow">several</span> providers/platforms
 * Offer a <span style="color:yellow">secure</span> service
+* Continuous monitoring of connection <span style="color:yellow">status</span>, and notify users when it doesn't match
 
 ## Assumptions
 
-* Users will be <span style="color:yellow">authenticated</span> through a SSO
-* <span style="color:yellow">Permissions</span> to manipulate others' networks
+* API consumers will be <span style="color:yellow">authenticated</span> through a SSO / Token
+* <span style="color:yellow">Rights</span> to manipulate others' networks
 * External APIs to <span style="color:yellow">integrate</span> with
 * <span style="color:yellow">Consistent</span> address plan (less pain)
 
@@ -30,6 +31,10 @@
 * <span style="color:yellow">Extensible modules</span> to talk with underlying network services
 * A user/machine <span style="color:yellow">interface</span> (CLI + API wrapper)
 * Running on <span style="color:yellow">dynamic infrastructure</span> (IaaS, PaaS, SaaS)
+
+## Architecture
+
+![](https://docs.google.com/drawings/d/e/2PACX-1vSefaisqNFTjHAS33TVa9Qt4eWLu4ENwoPer-uIWlm4Gvu0wpimBfI0ydN2l6lSOkL2vqgE8EXpd0Sz/pub?w=1352&h=692)
 
 ## Mappings
 
